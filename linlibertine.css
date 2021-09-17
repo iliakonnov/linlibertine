@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Linux Biolinum Keyboard'; /* Regular */
+    src: url('./woff/LinBiolinum_K.woff') format('woff'),
+         url('./otf/LinBiolinum_K.otf') format('opentype'),
+         url('./ttf/LinBiolinum_Kah.ttf') format('truetype'),
+         url('./svg/LinBiolinum_K.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* Bold */
+    src: url('./woff/LinBiolinum_RB.woff') format('woff'),
+         url('./otf/LinBiolinum_RB.otf') format('opentype'),
+         url('./ttf/LinBiolinum_RBah.ttf') format('truetype'),
+         url('./svg/LinBiolinum_RB.svg') format('svg');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* Italic */
+    src: url('./woff/LinBiolinum_RI.woff') format('woff'),
+         url('./otf/LinBiolinum_RI.otf') format('opentype'),
+         url('./ttf/LinBiolinum_RIah.ttf') format('truetype'),
+         url('./svg/LinBiolinum_RI.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* Regular */
+    src: url('./woff/LinBiolinum_R.woff') format('woff'),
+         url('./otf/LinBiolinum_R.otf') format('opentype'),
+         url('./ttf/LinBiolinum_Rah.ttf') format('truetype'),
+         url('./svg/LinBiolinum_R.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine Display'; /* Regular */
+    src: url('./woff/LinLibertine_DR.woff') format('woff'),
+         url('./otf/LinLibertine_DR.otf') format('opentype'),
+         url('./ttf/LinLibertine_DRah.ttf') format('truetype'),
+         url('./svg/LinLibertine_DR.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine Initials'; /* Initials */
+    src: url('./woff/LinLibertine_I.woff') format('woff'),
+         url('./otf/LinLibertine_I.otf') format('opentype'),
+         url('./ttf/LinLibertine_I.ttf') format('truetype'),
+         url('./svg/LinLibertine_I.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine Mono'; /* Mono */
+    src: url('./woff/LinLibertine_M.woff') format('woff'),
+         url('./otf/LinLibertine_M.otf') format('opentype'),
+         url('./ttf/LinLibertine_Mah.ttf') format('truetype'),
+         url('./svg/LinLibertine_M.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Bold Italic */
+    src: url('./woff/LinLibertine_RBI.woff') format('woff'),
+         url('./otf/LinLibertine_RBI.otf') format('opentype'),
+         url('./ttf/LinLibertine_RBIah.ttf') format('truetype'),
+         url('./svg/LinLibertine_RBI.svg') format('svg');
+    font-display: swap;
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Bold */
+    src: url('./woff/LinLibertine_RB.woff') format('woff'),
+         url('./otf/LinLibertine_RB.otf') format('opentype'),
+         url('./ttf/LinLibertine_RBah.ttf') format('truetype'),
+         url('./svg/LinLibertine_RB.svg') format('svg');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Italic */
+    src: url('./woff/LinLibertine_RI.woff') format('woff'),
+         url('./otf/LinLibertine_RI.otf') format('opentype'),
+         url('./ttf/LinLibertine_RIah.ttf') format('truetype'),
+         url('./svg/LinLibertine_RI.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Regular */
+    src: url('./woff/LinLibertine_R.woff') format('woff'),
+         url('./otf/LinLibertine_R.otf') format('opentype'),
+         url('./ttf/LinLibertine_Rah.ttf') format('truetype'),
+         url('./svg/LinLibertine_R.svg') format('svg');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Semibold Italic */
+    src: url('./woff/LinLibertine_RZI.woff') format('woff'),
+         url('./otf/LinLibertine_RZI.otf') format('opentype'),
+         url('./ttf/LinLibertine_RZIah.ttf') format('truetype'),
+         url('./svg/LinLibertine_RZI.svg') format('svg');
+    font-display: swap;
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* Semibold */
+    src: url('./woff/LinLibertine_RZ.woff') format('woff'),
+         url('./otf/LinLibertine_RZ.otf') format('opentype'),
+         url('./ttf/LinLibertine_RZah.ttf') format('truetype'),
+         url('./svg/LinLibertine_RZ.svg') format('svg');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}

@@ -15,14 +15,14 @@ for otf in ./otf/*.otf; do
 	fi
 
 	info=$(otfinfo "$otf" -i)
-	family=$(echo "$info" | sed -n 's/Family:\s*\(.*\)\( O\)\?/\1/p')
-	subfamily=$(echo "$info" | sed -n 's/Subfamily:\s*\(.*\)/\1/p')
+	family=$(echo "$info" | perl -ne 'print $1 if m/Family:\s*(.*?)( O)?$/')
+	subfamily=$(echo "$info" | perl -ne 'print $1 if m/Subfamily:\s*(.*)$/')
 
 	weight="normal"
-	if stringContain "Bold" "$family"; then
+	if stringContain "Bold" "$family $subfamily"; then
 		weight="bold"
 	fi
-	if stringContain "Semibold" "$family"; then
+	if stringContain "Semibold" "$family $subfamily"; then
 		weight="600"
 	fi
 

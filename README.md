@@ -7,5 +7,5 @@ Linux Libertine font for web
 # Usage
 Thanks to [githack](https://raw.githack.com) for the CDN.
 ```html
-<link rel="stylesheet" href="https://rawcdn.githack.com/iliakonnov/linlibertine/c6b4b2c9425a91bdac8977372d3d1e0f8ee7ab9f/linlibertine.css" integrity="sha384-c4eaeEdtQkX0kG8jMQWuumvho6FSne+F3Em/YZyhVvCcCf5LafE/7tTJBuTkQQpi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rawcdn.githack.com/iliakonnov/linlibertine/adbbf477b8e554087bf8a9856c494d1656b55900/linlibertine.css" integrity="sha384-vnKhUa5fs2wlv0J+dROs23QJaYX/31FIsBR2QCxiq/hAb3/J6BYVN0FZIwtN7tM5" crossorigin="anonymous">
 ```
